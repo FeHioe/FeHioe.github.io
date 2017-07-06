@@ -1,0 +1,115 @@
+/* Font */
+@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
+/* Styles for all */
+body {
+  height: 100%;
+  background-color: #f2f2f2;
+  margin: 0px;
+  width: 100%; }
+
+html {
+  height: 100%;
+  width: 100%; }
+
+h2 {
+  color: #e7eff6;
+  float: left; }
+
+/* Header */
+.header_content {
+  position: absolute;
+  /* Center Header Text */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+.header {
+  background-color: #2a4d69;
+  height: 100%;
+  position: relative; }
+
+h1 {
+  /* Felicia Hioe */
+  font-family: 'Droid Sans', sans-serif;
+  color: white;
+  text-align: center;
+  font-size: 80px; }
+
+#title h1 {
+  opacity: 0;
+  -webkit-transition: opacity 3s ease-in;
+  -moz-transition: opacity 3s ease-in;
+  -o-transition: opacity 3s ease-in;
+  -ms-transition: opacity 3s ease-in;
+  transition: opacity 3s ease-in; }
+
+#title h1.load {
+  opacity: 1; }
+
+h3 {
+  /* Full Stack - Mobile... */
+  color: #e7eff6;
+  text-align: center; }
+
+#tagline h3 {
+  opacity: 0;
+  -webkit-transition: opacity 3s 1s;
+  -moz-transition: opacity 3s 1s;
+  -o-transition: opacity 3s 1s;
+  -ms-transition: opacity 3s 1s;
+  transition: opacity 3s 1s; }
+
+#tagline h3.load {
+  opacity: 1; }
+
+button {
+  /* Down Arrow Button */
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: none;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none; }
+
+#scroll_down img {
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: opacity 3s 2s;
+  -moz-transition: opacity 3s 2s;
+  -o-transition: opacity 3s 2s;
+  -ms-transition: opacity 3s 2s;
+  transition: opacity 3s 2s; }
+
+#scroll_down img.load {
+  opacity: 1; }
+
+/* Menu */
+#menu {
+  text-align: right;
+  background-color: #222224;
+  height: 50px;
+  word-spacing: 70px; }
+
+.menu_links {
+  margin: 0; }
+
+.menu_links li {
+  display: inline-block;
+  margin-top: 4px; }
+
+.menu_links li a {
+  padding: 0 15.5px;
+  color: white;
+  text-decoration: none; }
+
+.menu_sticky {
+  top: 0;
+  z-index: 100;
+  position: fixed;
+  padding-right: 25px;
+  width: 100%; }
+
+/*# sourceMappingURL=style.css.map */
