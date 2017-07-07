@@ -1,11 +1,10 @@
-/* Font */
-@import url(https://fonts.googleapis.com/css?family=Droid+Serif);
 /* Styles for all */
 body {
   height: 100%;
   background-color: #f2f2f2;
   margin: 0px;
-  width: 100%; }
+  width: 100%;
+  font-family: 'Roboto Mono', monospace; }
 
 html {
   height: 100%;
@@ -13,7 +12,8 @@ html {
 
 h2 {
   color: #e7eff6;
-  float: left; }
+  float: left;
+  font-family: 'Rubik', sans-serif; }
 
 /* Header */
 .header_content {
@@ -30,10 +30,10 @@ h2 {
 
 h1 {
   /* Felicia Hioe */
-  font-family: 'Droid Sans', sans-serif;
   color: white;
   text-align: center;
-  font-size: 80px; }
+  font-size: 80px;
+  font-family: 'Rubik', sans-serif; }
 
 #title h1 {
   opacity: 0;
@@ -49,7 +49,8 @@ h1 {
 h3 {
   /* Full Stack - Mobile... */
   color: #e7eff6;
-  text-align: center; }
+  text-align: center;
+  margin-top: -40px; }
 
 #tagline h3 {
   opacity: 0;
@@ -60,6 +61,23 @@ h3 {
   transition: opacity 3s 1s; }
 
 #tagline h3.load {
+  opacity: 1; }
+
+#social_links {
+  /* Social Icons */
+  text-align: center;
+  margin-top: 50px; }
+
+#social_links img {
+  padding-right: 10px;
+  opacity: 0;
+  -webkit-transition: opacity 3s 2s;
+  -moz-transition: opacity 3s 2s;
+  -o-transition: opacity 3s 2s;
+  -ms-transition: opacity 3s 2s;
+  transition: opacity 3s 2s; }
+
+#social_links img.load {
   opacity: 1; }
 
 button {
@@ -77,11 +95,11 @@ button {
   left: 50%;
   transform: translate(-50%, -50%);
   opacity: 0;
-  -webkit-transition: opacity 3s 2s;
-  -moz-transition: opacity 3s 2s;
-  -o-transition: opacity 3s 2s;
-  -ms-transition: opacity 3s 2s;
-  transition: opacity 3s 2s; }
+  -webkit-transition: opacity 3s 3s;
+  -moz-transition: opacity 3s 3s;
+  -o-transition: opacity 3s 3s;
+  -ms-transition: opacity 3s 3s;
+  transition: opacity 3s 3s; }
 
 #scroll_down img.load {
   opacity: 1; }
@@ -98,7 +116,8 @@ button {
 
 .menu_links li {
   display: inline-block;
-  margin-top: 4px; }
+  margin-top: 4px;
+  font-family: 'Rubik', sans-serif; }
 
 .menu_links li a {
   padding: 0 15.5px;
