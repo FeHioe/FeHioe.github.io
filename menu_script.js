@@ -48,4 +48,15 @@ $(document).ready(function() {
 
   });
 
+  /* Adjust Height */
+  $(".about").height($(".skills").height());
+  $(".extra").height($(".skills").height());
+  $(".p2 #text").width($(".p1 #text").width());
+
+  window.addEventListener('resize', function(event){
+    $(".about").height($(".skills").height());
+    $(".extra").height($(".skills").height());
+    $(".p2 #text").width($(".p1 #text").width());
+  });
+
 });

@@ -165,12 +165,11 @@ li a:hover:not(.active) {
 .quarter {
   padding: 0 10%;
   margin-top: 10px;
-  height: 300px; }
+  overflow: auto; }
 
 .about, .skills, .extra {
   float: left;
-  width: 33.33%;
-  height: 300px; }
+  width: 33.33%; }
 
 .about p, .skills p {
   margin-right: 10px; }
@@ -194,13 +193,52 @@ li a:hover:not(.active) {
   padding-left: 10px; }
 
 /* Portfolio */
+h5, h6 {
+  font-size: 20px;
+  font-family: 'Oswald', sans-serif; }
+
 .portfolio {
+  padding: 0 10%; }
+
+#pics img {
+  border-radius: 25px;
+  width: 450px;
+  height: 350px; }
+
+.p1 #pics {
+  float: left; }
+
+.p1, .p2 {
+  overflow: auto;
+  padding: 0 10px;
+  padding-bottom: 10px;
+  margin-bottom: 20px; }
+
+.p1 #text {
+  padding-left: 20px;
+  overflow: hidden; }
+
+h6 {
+  text-align: right; }
+
+.p2 #text {
   float: left;
-  padding: 0 10%;
-  background-color: #f2f2f2; }
+  padding-right: 20px; }
 
 /* Contact */
 .contact {
-  padding: 0 10%; }
+  padding: 0 10%;
+  color: #FFF;
+  background-color: #2a4d69; }
+
+.mail p {
+  text-align: center; }
+
+/* Footer */
+.footer {
+  color: #FFF;
+  background-color: #222224;
+  text-align: center;
+  margin-top: -16px; }
 
 /*# sourceMappingURL=style.css.map */
