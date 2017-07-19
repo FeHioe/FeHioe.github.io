@@ -1,21 +1,16 @@
 /* Styles for all */
 body {
-    height: 100%;
     background-color: #f2f2f2;
     margin:0px;
     width: 100%;
-}
-
-html {
-	height: 100%;
-	width: 100%;
+    overflow: auto;
 }
 
 h4 {
 	text-align: center;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 600;
-	font-size: 20px;
+	font-size: 30px;
 }
 
 p{
@@ -135,8 +130,7 @@ button { /* Down Arrow Button */
 	height: 75px; 
 	z-index: 9999;
 	display: none;
-	background-color: #222224;
-	opacity: 0.9;
+	background-color: #191919;
 }
 
 h2 {
@@ -186,13 +180,15 @@ li a:hover:not(.active) {
 /* Quarter */
 .quarter {
 	padding: 0 10%;
-	margin-top: 10px;
+	padding-bottom: 20px;
 	overflow: auto;
+	background-color: #222224;
 }
 
 .about, .skills, .extra {
 	float: left;
 	width: 33.33%;
+	color: #FFF;
 }
 
 .about p, .skills p {
@@ -205,21 +201,14 @@ li a:hover:not(.active) {
 
 .extra {
 	position: relative;
-
+	text-align: center;
 }
 
 .extra_content {
 	position: absolute; 
-	top: 50%;
+	top: 55%;
 	left: 50%;
 	transform: translate(-50%, -50%);
-}
-
-.extra_content img#left {
-	padding-right: 10px;
-}
-.extra_content img#right {
-	padding-left: 10px;
 }
 
 /* Portfolio */
@@ -230,6 +219,8 @@ h5, h6 {
 
 .portfolio {
 	padding: 0 10%;
+	margin-bottom: 0px;
+	float: left;
 }
 
 #pics img {
@@ -265,20 +256,13 @@ h6 {
 
 /* Contact */
 .contact {
-	padding: 0 10%;
-	color: #FFF;
+	float: left;
+	width: 100%;
 	background-color: #2a4d69;
-}
-
-
-.mail p {
-	text-align: center;
-}
-
-/* Footer */
-.footer {
 	color: #FFF;
-	background-color: #222224;
 	text-align: center;
-	margin-top: -16px;
+}
+
+#social_links2 {
+	margin-top: -25px;
 }

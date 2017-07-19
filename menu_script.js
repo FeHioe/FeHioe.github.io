@@ -57,6 +57,9 @@ $(document).ready(function() {
     $(".about").height($(".skills").height());
     $(".extra").height($(".skills").height());
     $(".p2 #text").width($(".p1 #text").width());
+
+    height = document.getElementById('header_height').clientHeight - 75;
+    about_height = document.getElementById("quarter").clientHeight;
   });
 
 });
