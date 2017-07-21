@@ -158,7 +158,7 @@ li a:hover:not(.active) {
 
 /* Quarter */
 .quarter {
-  padding: 0 10%;
+  padding: 0 15%;
   padding-bottom: 20px;
   overflow: auto;
   background-color: #222224; }
@@ -185,39 +185,56 @@ li a:hover:not(.active) {
   transform: translate(-50%, -50%); }
 
 /* Portfolio */
-h5, h6 {
+h5 {
   font-size: 20px;
-  font-family: 'Oswald', sans-serif; }
+  font-family: 'Oswald', sans-serif;
+  text-align: center; }
+
+h6 {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  margin-top: -10px;
+  margin-bottom: -5px; }
+
+.portfolio a {
+  color: #FFF;
+  text-decoration: none;
+  background-color: #222224;
+  border-radius: 10px;
+  padding: 0 5px; }
+
+.portfolio a:hover {
+  background-color: #65737e; }
 
 .portfolio {
-  padding: 0 10%;
+  padding: 0 20%;
   margin-bottom: 0px;
   float: left; }
 
 #pics img {
   border-radius: 25px;
-  width: 450px;
-  height: 350px; }
+  width: 250px;
+  height: 250px;
+  border: 2px solid #65737e; }
 
 .p1 #pics {
   float: left; }
 
 .p1, .p2 {
   overflow: auto;
-  padding: 0 10px;
-  padding-bottom: 10px;
-  margin-bottom: 20px; }
+  padding: 0 20px;
+  margin: 20px 0; }
 
 .p1 #text {
   padding-left: 20px;
   overflow: hidden; }
 
-h6 {
-  text-align: right; }
-
 .p2 #text {
   float: left;
-  padding-right: 20px; }
+  overflow: hidden; }
+
+.p2 #pics img {
+  float: right; }
 
 /* Contact */
 .contact {
