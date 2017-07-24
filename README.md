@@ -1,2 +1,2 @@
 # FeHioe.github.io
-Portfolio Website
+Personal website that showcases web projects and programs.
