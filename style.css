@@ -187,7 +187,7 @@ li a:hover:not(.active) {
 /* Portfolio */
 h5 {
   font-size: 20px;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Roboto', sans-serif;
   text-align: center; }
 
 h6 {
@@ -217,24 +217,33 @@ h6 {
   height: 250px;
   border: 2px solid #65737e; }
 
-.p1 #pics {
-  float: left; }
-
 .p1, .p2 {
-  overflow: auto;
+  overflow: hidden;
   padding: 0 20px;
-  margin: 20px 0; }
+  margin: 20px 0;
+  display: table; }
+
+.p1 #pics {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  text-align: center; }
 
 .p1 #text {
-  padding-left: 20px;
-  overflow: hidden; }
+  display: table-cell;
+  vertical-align: top;
+  padding-left: 20px; }
 
 .p2 #text {
-  float: left;
-  overflow: hidden; }
+  display: table-cell;
+  vertical-align: top;
+  padding-right: 20px; }
 
-.p2 #pics img {
-  float: right; }
+.p2 #pics {
+  display: table-cell;
+  vertical-align: middle;
+  margin: auto;
+  text-align: center; }
 
 /* Contact */
 .contact {
