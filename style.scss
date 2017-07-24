@@ -292,13 +292,13 @@ h6 {
 }
 
 /* Responsiveness */
-@media only screen and (max-width: 1150px) {
+@media only screen and (max-width: 71.875em) {
     .portfolio{
     	padding: 0 10%;
     }
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 59.375em) {
 	.about, .skills, .extra {
 		float: none;
 		width: 100%;
@@ -309,7 +309,7 @@ h6 {
 	}
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 50.625em) {
 	.p1, .p2, .p1 #pics, .p1 #text {
 		display: -webkit-box;
 	    display: -moz-box;
@@ -354,7 +354,7 @@ h6 {
 	}
 }
 
-@media only screen and (max-width: 699px) {
+@media only screen and (max-width: 43.6875em) {
 	#social_links img { 
 		width: 50px;
 		height: 50px;
