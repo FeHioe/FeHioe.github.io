@@ -82,6 +82,8 @@ h3 { /* Full Stack - Mobile... */
 
 #social_links img { 
 	padding-right: 10px;
+	width: 60px;
+	height: 60px;
 
 	opacity: 0;
     -webkit-transition: opacity 3s 2s;
@@ -181,7 +183,7 @@ li a:hover:not(.active) {
 .quarter {
 	padding: 0 15%;
 	padding-bottom: 20px;
-	overflow: auto;
+	overflow: hidden;
 	background-color: #222224;
 }
 
@@ -200,16 +202,9 @@ li a:hover:not(.active) {
 }
 
 .extra {
-	position: relative;
 	text-align: center;
 }
 
-.extra_content {
-	position: absolute; 
-	top: 55%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-}
 
 /* Portfolio */
 h5 {
@@ -294,4 +289,75 @@ h6 {
 
 #social_links2 {
 	margin-top: -25px;
+}
+
+/* Responsiveness */
+@media only screen and (max-width: 1150px) {
+    .portfolio{
+    	padding: 0 10%;
+    }
+}
+
+@media only screen and (max-width: 950px) {
+	.about, .skills, .extra {
+		float: none;
+		width: 100%;
+	}
+
+	.extra {
+		padding-bottom: 20px;
+	}
+}
+
+@media only screen and (max-width: 810px) {
+	.p1, .p2, .p1 #pics, .p1 #text {
+		display: -webkit-box;
+	    display: -moz-box;
+	    display: -ms-flexbox;
+	    display: -webkit-flex;
+	    display: flex;
+	    -webkit-box-orient: vertical;
+	    -moz-box-orient: vertical;
+	    -webkit-flex-direction: column;
+	    -ms-flex-direction: column;
+	    flex-direction: column;
+	}
+
+	.p2 #pics {
+	    -webkit-box-ordinal-group: 1;
+	    -moz-box-ordinal-group: 1;
+	    -ms-flex-order: 1;
+	    -webkit-order: 1;
+	    order: 1;
+	}
+
+	.p2 #text {
+		-webkit-box-ordinal-group: 2;
+	    -moz-box-ordinal-group: 2;
+	    -ms-flex-order: 2;
+	    -webkit-order: 2;
+	    order: 2;
+	}
+
+	h2 {
+	   	display: none;
+	}
+
+	ul {
+		float: none;
+		display: table;
+		margin: 0 auto; 
+	}
+
+	li {
+		display: inline;
+	}
+}
+
+@media only screen and (max-width: 699px) {
+	#social_links img { 
+		width: 50px;
+		height: 50px;
+	}
+
 }

@@ -48,18 +48,11 @@ $(document).ready(function() {
 
   });
 
-  /* Adjust Height */
-  $(".about").height($(".skills").height());
-  $(".extra").height($(".skills").height());
-  $(".p2 #text").width($(".p1 #text").width());
-
+  /* Adjust Height */ 
   window.addEventListener('resize', function(event){
-    $(".about").height($(".skills").height());
-    $(".extra").height($(".skills").height());
-    $(".p2 #text").width($(".p1 #text").width());
-
     height = document.getElementById('header_height').clientHeight - 75;
     about_height = document.getElementById("quarter").clientHeight;
+
   });
 
 });
