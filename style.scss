@@ -3,6 +3,7 @@ html {
     overflow: scroll;
     overflow-x: hidden;
 }
+
 ::-webkit-scrollbar {
     width: 0px;
 }
@@ -402,10 +403,17 @@ h6 {
 	    display: block;
 	    float:none;
 	    margin-top: -10px;
-	    margin-bottom: -30px;
+	    margin-bottom: -57px;
+	}
+
+	li a {
+	    display: block;
+	    width: 100%;
+	    padding: 0;
+	    padding-bottom: 0px;
 	}
 
 	#menu {
-		height: 150px;
+		height: 100px;
 	}
 }

@@ -10,7 +10,7 @@ $(document).ready(function() {
     var height = document.getElementById('header_height').clientHeight - 75;
     var about_height = document.getElementById("quarter").clientHeight;
   } else {
-    var height = document.getElementById('header_height').clientHeight - 150;
+    var height = document.getElementById('header_height').clientHeight - 100;
     var about_height = document.getElementById("quarter").clientHeight;  
   }
 
@@ -59,7 +59,7 @@ $(document).ready(function() {
       var height = document.getElementById('header_height').clientHeight - 75;
       var about_height = document.getElementById("quarter").clientHeight;
     } else {
-      var height = document.getElementById('header_height').clientHeight - 150;
+      var height = document.getElementById('header_height').clientHeight - 100;
       var about_height = document.getElementById("quarter").clientHeight;  
     }
 
