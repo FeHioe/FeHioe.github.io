@@ -6,8 +6,13 @@ $(document).ready(function() {
   }
 
   /* Get Heights */
-  var height = document.getElementById('header_height').clientHeight - 75;
-  var about_height = document.getElementById("quarter").clientHeight;
+  if ($(window).width() > 530) {
+    var height = document.getElementById('header_height').clientHeight - 75;
+    var about_height = document.getElementById("quarter").clientHeight;
+  } else {
+    var height = document.getElementById('header_height').clientHeight - 150;
+    var about_height = document.getElementById("quarter").clientHeight;  
+  }
 
   /* Fade In Header Animations */
   $("#tagline h3").addClass("load");
@@ -50,8 +55,13 @@ $(document).ready(function() {
 
   /* Adjust Height */ 
   window.addEventListener('resize', function(event){
-    height = document.getElementById('header_height').clientHeight - 75;
-    about_height = document.getElementById("quarter").clientHeight;
+    if ($(window).width() > 530) {
+      var height = document.getElementById('header_height').clientHeight - 75;
+      var about_height = document.getElementById("quarter").clientHeight;
+    } else {
+      var height = document.getElementById('header_height').clientHeight - 150;
+      var about_height = document.getElementById("quarter").clientHeight;  
+    }
 
   });
 

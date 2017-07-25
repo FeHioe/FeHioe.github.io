@@ -70,6 +70,7 @@ h3 {
 #social_links {
   /* Social Icons */
   text-align: center;
+  margin: auto;
   margin-top: 50px; }
 
 #social_links img {
@@ -100,6 +101,9 @@ button {
   top: 95%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: 50px;
+  height: 50px;
+  margin-left: -6px;
   opacity: 0;
   -webkit-transition: opacity 3s 3s;
   -moz-transition: opacity 3s 3s;
@@ -261,7 +265,7 @@ h6 {
     width: 100%; }
 
   .extra {
-    padding-bottom: 20px; } }
+    padding-bottom: 15px; } }
 @media only screen and (max-width: 50.625em) {
   .p1, .p2, .p1 #pics, .p1 #text {
     display: -webkit-box;
@@ -300,8 +304,35 @@ h6 {
   li {
     display: inline; } }
 @media only screen and (max-width: 43.6875em) {
+  .header_content {
+    top: 40%; }
+
+  h1 {
+    font-size: 50px; }
+
+  h3 {
+    font-size: 15px;
+    padding-top: 10px; }
+
+  #social_links {
+    /* Social Icons */
+    margin-top: 10px; }
+
   #social_links img {
-    width: 50px;
-    height: 50px; } }
+    width: 40px;
+    height: 40px; }
+
+  #scroll_down img {
+    width: 35px;
+    height: 35px; } }
+@media only screen and (max-width: 33.125em) {
+  li {
+    display: block;
+    float: none;
+    margin-top: -10px;
+    margin-bottom: -30px; }
+
+  #menu {
+    height: 150px; } }
 
 /*# sourceMappingURL=style.css.map */
