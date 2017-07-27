@@ -10,8 +10,7 @@ body {
   background-color: #f2f2f2;
   margin: 0px;
   width: 100%;
-  overflow: auto;
-  padding-bottom: 20px; }
+  overflow: auto; }
 
 h4 {
   text-align: center;
@@ -33,7 +32,7 @@ p {
 
 .header {
   background-color: #2a4d69;
-  height: 100%;
+  height: calc(100%);
   position: relative; }
 
 h1 {
