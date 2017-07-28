@@ -295,6 +295,10 @@ h6 {
 .contact {
 	float: left;
 	width: 100%;
+	position: absolute;
+    left: 0;
+    overflow: hidden;
+    bottom: 0;
 	background-color: #2a4d69;
 	color: #FFF;
 	text-align: center;
