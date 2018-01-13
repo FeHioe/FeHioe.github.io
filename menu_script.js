@@ -21,6 +21,7 @@ $(document).ready(function() {
   $("#social_links img").addClass("load");
 
   /* Scroll Down */
+  
   $("#scroll_down").on("click", function() {
     $('html, body').animate({scrollTop: height + 1}, 'slow');
   });
