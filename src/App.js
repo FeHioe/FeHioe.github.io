@@ -13,12 +13,12 @@ function App() {
             <p> Toronto, Ontario, Canada</p>
           </div>
       </div>
-      <div className="menu">
-        <div className="bullet"><a>&#11044; Resume</a></div>
-        <div className="bullet"><a>&#11044; Github</a></div>
-        <div className="bullet"><a>&#11044; Projects</a></div>
-        <div className="bullet"><a>&#11044; About</a></div>
-      </div>
+        <ul className="menu">
+          <li><a>About</a></li>
+          <li><a href="https://drive.google.com/file/d/1UMLWERmtqSIIPW90i-GZprmDOVz0Iw9a/view?usp=sharing" target="_blank">Resume</a></li>
+          <li><a>Projects</a></li>
+          <li><a href="https://github.com/FeHioe" target="_blank">Github</a></li>
+        </ul>
     </div>
   );
 }
